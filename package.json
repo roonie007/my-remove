@@ -1,0 +1,47 @@
+{
+  "name": "my-remove",
+  "version": "1.0.6",
+  "description": "This is a module to delete a file or a directory using real environment command RM & DEL & RMDIR",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "my-remove": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roonie007/my-remove.git"
+  },
+  "keywords": [
+    "remove",
+    "remove file",
+    "remove directory",
+    "remove files",
+    "remove directories",
+    "remove folder",
+    "remove folders",
+    "delete",
+    "delete file",
+    "delete directory",
+    "delete files",
+    "delete directories",
+    "delete folder",
+    "delete folders",
+    "rm",
+    "rm file",
+    "rm directory",
+    "rm files",
+    "rm directories",
+    "rm folder",
+    "rm folders"
+  ],
+  "author": "DipToX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roonie007/my-remove/issues"
+  },
+  "homepage": "https://github.com/roonie007/my-remove#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security"
+  }
+}
